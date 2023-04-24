@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+
+body {
+    background-color: rgb(36, 35, 40);
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+    color: white;
+    margin: 30px;
+
+}
+
+
+.cabecalho {
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 120px;
+    padding-top: 30px;
+    text-align: left;
+    background-color: rgb(76, 72, 92);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.631);
+    font-size: 12px;
+    font-family: 'Chakra Petch', Helvetica, sans-serif;
+
+}
+
+/*Título*/
+h1 {
+    color: white;
+    font-size: 100px;
+    font-family: 'Chakra Petch', Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.631);
+    background-image: url("SSE.PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 600px;
+    padding-left: 100px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+/* Titulo*/
+.osistemasolar {
+    font-size: 80px;
+    font-family: "Chakra Petch", sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+    padding: 2%;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.631);
+    transition: transform 0.3s ease-in-out;
+}
+.osistemasolar:hover {
+    transform:scale(1.2);
+}
+.universo1 {
+    width: 20vw;
+}
+
+.urbain {
+    width: 20vw;
+}
+
+.universo2 {
+    width: 20vw;
+}
+
+.textocabecalho {
+    float: left;
+}
+
+.icon {
+    width: 60px;
+    float: right;
+    transition: transform 0.3s ease-in-out;
+}
+.icon:hover {
+    transform:scale(1.2);
+}
+
+/* Colunas */
+
+.ContentorEspaço {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.coluna-esquerda {
+    font-size: 18px;
+    text-align: center;
+    width: 20%;
+    padding: 4%;
+    background-color: rgba(114, 99, 173, 0.46);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.631);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.631);
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.coluna-esquerda:hover {
+    transform:scale(1.2);
+}
+
+.coluna-centro {
+    font-size: 18px;
+    text-align: center;
+    width: 20%;
+    padding: 4%;
+    background-color: rgba(114, 99, 173, 0.46);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.631);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.631);
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.coluna-centro:hover {
+    transform:scale(1.2);
+}
+
+.coluna-direita {
+    font-size: 18px;
+    text-align: center;
+    width: 20%;
+    padding: 4%;
+    background-color: rgba(114, 99, 173, 0.46);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.631);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.631);
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.coluna-direita:hover {
+    transform:scale(1.2);
+}
+
+
+/*Planetas*/
+.contentor {
+    clear: both;
+    display: flex;
+    justify-content: center;
+
+}
+
+.imagemPlanetaE {
+    width: 150px;
+}
+
+.Texto {
+    margin: 20px;
+    font-size: 14px;
+    font-family: 'Chakra Petch', Helvetica, sans-serif;
+    color: rgb(184, 170, 241);
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(114, 99, 173, 0.46);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.201);
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+/*texto*/
+.Elipse {
+    clear: both;
+    font-size: 18px;
+    font-family: 'Chakra Petch', Helvetica, sans-serif;
+    text-align: center;
+    padding: 40px;
+    background-color: black;
+    width: 70%;
+    float: center;
+    display: table;
+    margin: auto;
+    padding: 30px;
+
+}
+
+/*Gigantes Gasosos*/
+.titulogasososrochosos {
+    text-align: center;
+    font-style: italic;
+    font-variant-caps: all-small-caps;
+    font-size: 60px;
+    transition: transform 0.3s ease-in-out;
+}
+.titulogasososrochosos:hover {
+    transform: scale(1.2);
+  }
+
+.gasosos {
+    display: table;
+    clear: both;
+    font-size: 18px;
+    font-family: 'Chakra Petch', Helvetica, sans-serif;
+    text-align: center;
+    padding: 40px;
+    background-color: black;
+    width: 30%;
+    float: right;
+    margin: 30px;
+
+}
+
+.rochosos {
+    display: table;
+    clear: both;
+    font-size: 18px;
+    font-family: 'Chakra Petch', Helvetica, sans-serif;
+    text-align: center;
+    padding: 40px;
+    background-color: black;
+    width: 30%;
+    float: left;
+}
+
+.rocha {
+    width: 500px;
+    align-self: center;
+}
+
+.quatro {
+    width: 500px;
+    align-self: center;
+}
+
+.contentorgrande {
+    display: flex;
+    justify-content: center;
+}
+
+/*Texto*/
+.Azul {
+    clear: both;
+    display: table;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Chakra Petch", sans-serif;
+    color: white;
+    margin: 50px;
+    padding: 100px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.631);
+}
+
+.rodapé {
+    padding: 20px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: right;
+    background-color: rgb(76, 72, 92);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.631);
+    font-size: 20px;
+    font-family: 'Chakra Petch', Helvetica, sans-serif;
+    
+
+
+}
+.socialNetwork {
+    width: 50px;
+    padding: 10px;
+    align-items:center;
+    transition: transform 0.3s ease-in-out;
+   }
+
+   .socialNetwork:hover {
+    transform:scale(1.2);
+   }
+   
+/* Para telemóveis */
+@media only screen and (max-width: 768px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textocabecalho {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+    }
+
+    .icon {
+        width: 15vw;
+    }
+
+    .Texto {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .ContentorEspaço {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .universo1 {
+        width: 40vw;
+    }
+
+    .urbain {
+        width: 40vw;
+    }
+
+    .universo2 {
+        width: 40vw;
+    }
+
+    .coluna-esquerda {
+
+        font-size: 20px;
+        font-family: 'Chakra Petch', Helvetica, sans-serif;
+        text-align: center;
+        padding: 40px;
+        width: 300px;
+        margin: 30px;
+    }
+
+    .coluna-centro {
+
+        font-size: 20px;
+        font-family: 'Chakra Petch', Helvetica, sans-serif;
+        text-align: center;
+        padding: 40px;
+        width: 300px;
+        margin: 30px;
+    }
+
+    .coluna-direita {
+
+        font-size: 20px;
+        font-family: 'Chakra Petch', Helvetica, sans-serif;
+        text-align: center;
+        padding: 40px;
+        width: 300px;
+        margin: 30px;
+    }
+
+
+    .rochosos {
+        clear: both;
+        font-size: 20px;
+        font-family: 'Chakra Petch', Helvetica, sans-serif;
+        text-align: center;
+        padding: 40px;
+        background-color: black;
+        width: 800px;
+        margin: 30px;
+        padding: 30px;
+    }
+
+    .gasosos {
+        clear: both;
+        font-size: 20px;
+        font-family: 'Chakra Petch', Helvetica, sans-serif;
+        text-align: center;
+        padding: 40px;
+        background-color: black;
+        width: 800px;
+        margin: 30px;
+        ;
+        padding: 30px;
+
+    }
+
+    .rocha {
+        display: none;
+    }
+
+    .quatro {
+        display: none;
+    }
+}
